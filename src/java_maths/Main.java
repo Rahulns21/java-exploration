@@ -35,7 +35,7 @@ public class Main {
         System.out.println("Enter side b: ");
         b = scanner.nextDouble();
 
-        c = Math.sqrt((x*x) + (y*y));
+        c = Math.sqrt((a*a) + (b*b));
         System.out.println("The hypotenuse is : " + c);
 
         scanner.close();
