@@ -17,5 +17,13 @@ public class ForLoop {
         for(int i = 10; i>=0; i--) {
             System.out.println("Reverse Count: " + i);
         }
+
+        // Add a line break after the first loop
+        System.out.println();
+
+        // this loop counts from 1 to 100
+        for (int i = 0; i<=100; i+=2) {
+            System.out.println("Count: " + i);
+        }
     }
 }
